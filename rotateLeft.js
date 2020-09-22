@@ -24,8 +24,7 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-// Complete the rotLeft function below.?
-//a = array d = rotateLeft
+
 function rotLeft(a, d) {
     let size = a.length
     let newArr = [];
@@ -37,7 +36,7 @@ function rotLeft(a, d) {
         i++
         rotateLeftIdx++
     }
-    //set d back to 0
+ 
     rotateLeftIdx = 0
 
     while(rotateLeftIdx < d){
